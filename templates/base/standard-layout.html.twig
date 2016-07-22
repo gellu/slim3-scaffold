@@ -1,0 +1,19 @@
+{% extends "base/base.html.twig" %}
+
+{% block body %}
+
+	<header>
+		<div class="container">
+
+			{% include "layout/logo.html.twig" %}
+
+			{% include "layout/navbar.html.twig" %}
+
+		</div>
+	</header>
+
+	{% block content %}{% endblock %}
+
+	{% include "layout/footer.html.twig" %}
+
+{% endblock %}
